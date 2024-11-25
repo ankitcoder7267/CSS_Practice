@@ -1,0 +1,107 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: #1b74e4;
+}
+
+#searchbtn {
+    background-color: black;
+    color: white;
+}
+
+#login,
+#register {
+    background-color: aqua;
+} */
+
+ .userbtn {
+    background-color: aqua;
+}
+
+div {
+    height: 280px;
+    width: 480px;
+    background-color: aqua;
+    border-width: 2px;
+    border-style: double;
+    border-color: black;
+    border-radius: 15px;
+    margin: 20px;
+    
+}
+
+h1 {
+    border-width: 5px;
+    border-style: dashed ;
+    border-color: black;
+    /* border: 2px dashed black;  {this is called border shorthand Css}    */
+ } 
+
+button {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: black;
+    color: antiquewhite;
+} 
+
+
+#outer {
+    height: 200px;
+    width: 75px;
+    border: 2px solid black;
+    
+}
+
+.inner {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+    
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+h2 {
+    display: inline-grid;
+    background-color: #1b74e4;
+}
+
+span {
+    display: block;
+    background-color: rgb(255, 206, 127);
+    border: 2px solid black;
+    height: 25px;
+    width: 500px ;
+    padding: 10px;
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

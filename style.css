@@ -1,0 +1,184 @@
+h3 {
+    background-color: antiquewhite !important;
+}
+
+
+h3 {
+    color: purple;
+}
+
+h1 {
+    color: #b92b27;
+
+}
+
+#login {
+    background-color: aqua;
+
+}
+
+#signup{
+    background-color: #b92b27;
+}
+
+.upvote {
+    background-color: #27b9b9;
+    color: aliceblue; 
+}
+
+#myId p {
+    color: rgb(255, 42, 0);
+}
+            /* or
+div [id="myId"] p{
+    color:red;
+} */
+
+/* Descendent Selector ------------------- */
+
+.post a {
+    color: rgb(255, 3, 3);
+    background-color: aqua;
+}
+
+nav ul li a {
+    color:rgb(238, 0, 175);
+    
+}
+
+/* Adjacent sibling Combinatore  */
+
+P + h3 {
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color: #b92b27;
+    color: #27b9b9;
+}
+
+/* Child Combinator */
+
+div > input {
+    background-color: aqua;
+}
+
+/* Attribute Selector */
+
+input[type="text"] {
+    color: rgb(102, 0, 255);
+}
+
+input[type="password"] {
+    color: green;
+}
+
+/* Attribute selector */
+
+input[type] {
+    background-color:  ghostwhite;
+}
+
+/* CSS for the given problem are */
+
+h1{
+    color: pink;
+}
+
+#greet {
+    color: yellow;    
+}
+
+.myclass{
+    color: brown;
+}
+
+/* OUTPUT :- here the precedanece of the id selector is high then the color will be YELLOW */
+ 
+/* CSS For the given Problem are*/
+
+/* div p {
+    background-color: black;
+} */
+
+.para {
+    background-color: blue;
+}
+
+/* p{
+    background-color: green;
+} */
+
+/* OUTPUT :- HERE specity value is high of .para then the bg color of the para is BLUE */
+
+/* CSS For the 3rd Prolem are */
+
+div.greetDiv .greet {
+    color: green;
+}
+
+.greetDiv p.greet {
+    color: blue;
+}
+
+.greetDiv .greet{
+    color: red;
+}
+
+/* If the specity are samme then those class which come after then after property will apply here blue will be appear  */
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+h3:hover{
+    text-decoration: none;
+}
+
+button:active {
+    background-color: #b92b27 ;
+}
+
+p:active {
+    font-weight: bold;
+    color: #b92b27;
+}
+
+input[type="radio"]:checked+label {
+    color: red;
+    font-weight: bold;
+}
+
+h1::first-letter {
+    color: black;
+}
+
+p::first-line {
+    color: blue;
+}
+
+p::selection {
+    background-color: yellowgreen;
+}
+
+h3 {
+    background-color: yellow;
+}
+
+h3 {
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

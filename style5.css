@@ -1,0 +1,113 @@
+/* h1 {
+    background-color: yellow ;
+    border: 2px solid black ;
+    text-align: center;
+} */
+
+/* @media (min-width: 400px) {
+    h1 {
+        background-color: red;
+        color: whitesmoke;
+    }
+}
+
+@media (min-width: 400px) {
+    h1 {
+        background-color: red;
+        color: whitesmoke;
+    }
+} these are the width of the viewport */
+
+/* div {
+    height: 200px;
+    width: 150px;
+    background-color: black;
+}
+
+@media (orientation: landscape){
+    h1 {
+        background-color: aqua;
+        color: brown;
+    }
+} */
+
+.card {
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+h2 {
+    color: #d56f3e;
+}
+
+span {
+    color: #9d6f3e;
+}
+
+h4 {
+    text-align:right ;
+    color: rgb(255, 0, 208);
+}
+
+#pets {
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+@media (max-width:375px) {
+    #pets {
+        flex-wrap: wrap;
+    }
+}
+
+.box {
+    height: 200px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: pink;
+}
+
+.one {
+    background-color: #d56f3e;
+}
+
+.two {
+    background-color: darkmagenta;
+    position: relative;
+    bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

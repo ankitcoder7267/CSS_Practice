@@ -1,0 +1,51 @@
+section {
+    margin-top: 100px;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(255, 47, 0);
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transform:rotate(45deg);
+    margin: 10px auto;
+      
+}
+
+div:nth-of-type(2n) {
+    background-color: burlywood;
+}
+
+div:nth-of-type(3n) {
+    background-color: burlywood;
+}
+
+div:hover {
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+#one {
+    transform:rotate(45deg);
+}
+
+#two {
+    transform: scale(0.5); /*this is the transform property in the css*/
+}
+
+/* #three {
+    transform: translate(50px,
+    50px);                          /*here it is the transform properties
+    transform: translateX(10px);
+    transform: translate(10px);
+} */
+
+#three {
+    transform: skew(30deg); /* this is the skew propertis in the css */
+}
+
+#four {
+    transform: rotate(30deg) translate(150px);
+}
